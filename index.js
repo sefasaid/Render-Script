@@ -2,6 +2,8 @@ const usus = require('usus')
 const render = usus.render;
 const chromeLauncher = require('chrome-launcher');
 const port = 0;
+const http = require('http');
+
 chromeLauncher.launch({
     startingUrl: 'https://maabac.com',
     chromeFlags: ['--headless', '--disable-gpu', '--no-sandbox']
@@ -9,7 +11,6 @@ chromeLauncher.launch({
     port = chrome.port;
     console.log(`Chrome debugging port running on ${chrome.port}`);
 });
-const http = require('http');
 
 
 async function get(url) {
