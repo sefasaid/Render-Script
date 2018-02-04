@@ -1,10 +1,7 @@
 const usus = require('usus')
 const render = usus.render;
-const express = require('express')
-const app = express()
-const launchChrome = usus.launchChrome;
 const chromeLauncher = require('chrome-launcher');
-const post = 0;
+const port = 0;
 chromeLauncher.launch({
     startingUrl: 'https://maabac.com',
     chromeFlags: ['--headless', '--disable-gpu', '--no-sandbox']
