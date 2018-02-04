@@ -1,0 +1,26 @@
+{
+  "name": "maabac-prerender",
+  "version": "1.0.0",
+  "description": "prerender service for maabac",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://sefasaid@bitbucket.org/sefasaid/maabac-prerender-service.git"
+  },
+  "keywords": [
+    "maabac",
+    "prerender"
+  ],
+  "author": "sefa said deniz",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/sefasaid/maabac-prerender-service#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "http": "0.0.0",
+    "lighthouse": "^2.8.0",
+    "usus": "^1.6.0"
+  }
+}
